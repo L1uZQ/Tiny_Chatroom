@@ -1,0 +1,3 @@
+/home/lzq/CppPro/Chatroom/server/build/CMakeFiles/rebuild_cache.dir
+/home/lzq/CppPro/Chatroom/server/build/CMakeFiles/edit_cache.dir
+/home/lzq/CppPro/Chatroom/server/build/CMakeFiles/main.dir

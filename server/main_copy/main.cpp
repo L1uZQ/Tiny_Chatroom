@@ -69,12 +69,13 @@ int main() {
                 //设置超时read
                 struct timeval timeout = {1, 0};
                 setsockopt(cfd, SOL_SOCKET, SO_RCVTIMEO, (char *) &timeout, sizeof(struct timeval));
-            } else if (events[i].events & EPOLLIN) {
+            } else if (events[i].events & EPOLLIN) { //与客户端建立连接
                 HeadData hd(fd);
                 unsigned int protocolId = hd.getProtocolId();
                 unsigned int account = hd.getAccount();
                 unsigned int dataType = hd.getDataType();
                 unsigned int dataLength = hd.getDataLength();
+                //需要先将数据全读出来，通过线程池在本地处理
                 DataProcesser dp;
                 switch (protocolId) {
                     case LOGIN: {
@@ -194,7 +195,6 @@ int main() {
                     }
                         break;
                 }
-
             }
         }
     }

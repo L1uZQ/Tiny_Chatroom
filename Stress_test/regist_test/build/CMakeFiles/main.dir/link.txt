@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -g  -rdynamic CMakeFiles/main.dir/home/lzq/CppPro/Chatroom/Stress_test/ProtocolHead/DataEncoder.cpp.o CMakeFiles/main.dir/home/lzq/CppPro/Chatroom/Stress_test/ProtocolHead/HeadData.cpp.o CMakeFiles/main.dir/regist_test.cpp.o  -o main  -lmysqlclient /usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4 -lpthread 

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lzq/CppPro/Chatroom/Stress_test/ProtocolHead/DataEncoder.h
+protocolmsg.h
+/home/lzq/CppPro/Chatroom/Stress_test/ProtocolHead/protocolmsg.h
+string
+-
+
+/home/lzq/CppPro/Chatroom/Stress_test/ProtocolHead/HeadData.h
+protocolmsg.h
+/home/lzq/CppPro/Chatroom/Stress_test/ProtocolHead/protocolmsg.h
+unistd.h
+-
+arpa/inet.h
+-
+iostream
+-
+
+/home/lzq/CppPro/Chatroom/Stress_test/ProtocolHead/protocolmsg.h
+
+/home/lzq/CppPro/Chatroom/Stress_test/regist_test/regist_test.cpp
+iostream
+-
+cstring
+-
+unistd.h
+-
+arpa/inet.h
+-
+thread
+-
+chrono
+-
+jsoncpp/json/json.h
+-
+../ProtocolHead/DataEncoder.h
+/home/lzq/CppPro/Chatroom/Stress_test/ProtocolHead/DataEncoder.h
+../ProtocolHead/HeadData.h
+/home/lzq/CppPro/Chatroom/Stress_test/ProtocolHead/HeadData.h
+

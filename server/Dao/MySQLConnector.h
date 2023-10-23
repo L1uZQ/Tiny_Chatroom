@@ -1,7 +1,3 @@
-//
-// Created by cswen on 2020/8/3.
-//
-
 #include <iostream>
 #include<string>
 #include <mysql/mysql.h>
@@ -11,7 +7,7 @@
 #include "../config/mysql_config.h"
 using namespace std;
 
-//单例模式
+//单例模式，数据库连接器
 class MySQLConnector {
 private:
     MYSQL *conn;

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -g  -rdynamic CMakeFiles/main.dir/ProtocolHead/DataEncoder.cpp.o CMakeFiles/main.dir/ProtocolHead/HeadData.cpp.o CMakeFiles/main.dir/client_test.cpp.o  -o main  -lmysqlclient /usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4 -lpthread 

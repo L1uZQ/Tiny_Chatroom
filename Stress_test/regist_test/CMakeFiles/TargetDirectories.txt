@@ -1,0 +1,3 @@
+/home/lzq/CppPro/Chatroom/Stress_test/regist_test/CMakeFiles/rebuild_cache.dir
+/home/lzq/CppPro/Chatroom/Stress_test/regist_test/CMakeFiles/edit_cache.dir
+/home/lzq/CppPro/Chatroom/Stress_test/regist_test/CMakeFiles/main.dir
